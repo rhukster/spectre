@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "animations.css",
+	"sources": [
+		"../../scss/src/animations.scss"
+	],
+	"mappings": "AACA,UAAU,CAAV,OAAU,CACR,AAAA,EAAE,CACA,SAAS,CAAE,YAAM,CAEnB,AAAA,IAAI,CACF,SAAS,CAAE,cAAM,EAGrB,UAAU,CAAV,UAAU,CACR,AAAA,EAAE,CACA,UAAU,CAAE,KAAM,CAClB,OAAO,CAAE,CAAE,CAEb,AAAA,IAAI,CACF,UAAU,CAAE,CAAE,CACd,OAAO,CAAE,CAAE",
+	"names": []
+}
