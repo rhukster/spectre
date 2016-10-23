@@ -1,8 +1,8 @@
 // Core variables
 
 // Global
-$html-font-size: 1rem;
-$html-line-height: 1.428571429;
+$html-font-size: 10px;
+$html-line-height: 1.42858;
 $body-bg: #fff;
 $body-font-color: #333;
 $body-font-size: 1.4rem;
@@ -18,7 +18,7 @@ $paddings: 0.5 1 1.5 2 3 4 5;
 
 // Colors
 $core-color: #0073B5;
-$core-secondary-color: lighten($core-color, 40%);
+$core-secondary-color: lighten($core-color, 60%);
 $core-light-color: #fff;
 $core-meta-color: #888;
 $core-link-color: #0073B5;
