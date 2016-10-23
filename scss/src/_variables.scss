@@ -38,8 +38,6 @@ $size-lg: 960px;
 $size-xl: 1280px;
 
 // Functions
-$browser-context: 10;
-
 @function strip-unit($number) {
   @if type-of($number) == 'number' and not unitless($number) {
     @return $number / ($number * 0 + 1);
@@ -47,6 +45,8 @@ $browser-context: 10;
 
   @return $number;
 }
+
+$browser-context: strip-unit($html-font-size);
 
 @function rem($pixels, $context: $browser-context) {
   @if (unitless($pixels)) {
